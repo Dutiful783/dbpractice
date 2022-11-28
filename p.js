@@ -5,7 +5,7 @@ const bcrypt = require('bcrypt');
 const zlib = require('zlib');
 const { userInfo } = require('os');
 
-const sequelize = new Sequelize('demo', 'root', 'Sunday40@', {
+const sequelize = new Sequelize('demo', 'root', 'password', {
     dialect: 'mysql'
     
 })
